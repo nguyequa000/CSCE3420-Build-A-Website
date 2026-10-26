@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The personal website of Quan Nguyen, built as a CSCE 3420 course project.">
+  <title>Quan Nguyen | CSCE 3420</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header>
+    <nav class="navbar navbar-expand-lg sticky-top site-navbar" data-bs-theme="dark" aria-label="Primary navigation">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#home">Quan Nguyen</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNav" aria-controls="primaryNav" aria-expanded="false" aria-label="Toggle site navigation">
+          <span class="navbar-toggler-icon" aria-hidden="true"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="primaryNav">
+          <ul class="navbar-nav ms-auto gap-lg-2">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#coursework">Coursework</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="row align-items-center g-4 g-lg-5">
+          <div class="col-lg-7">
+            <p class="eyebrow mb-3">CSCE 3420 <span aria-hidden="true">&middot;</span> Course project</p>
+            <h1 class="display-3 fw-bold mb-3" id="hero-title">Hi, I'm Quan Nguyen</h1>
+            <p class="lead mb-4">I'm taking CSCE 3420, and I built this website as my class assignment. It's a simple, responsive place to introduce myself and share the work behind the page.</p>
+            <div class="d-flex flex-column flex-sm-row gap-3">
+              <a class="btn btn-primary btn-lg px-4" href="#about">About me</a>
+              <a class="btn btn-outline-dark btn-lg px-4" href="https://github.com/nguyequa000" target="_blank" rel="noopener noreferrer">
+                GitHub<span class="visually-hidden"> profile (opens in a new tab)</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="hero-art">
+              <img class="img-fluid" src="img/workspace.svg" width="800" height="600" alt="Illustration of a purple coding workspace with a laptop, coffee cup, and plant; artwork, not a portrait of Quan Nguyen.">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="details-section" aria-labelledby="details-title">
+      <div class="container">
+        <div class="section-intro">
+          <h2 class="h3 fw-bold mb-2" id="details-title">A little about me and this site</h2>
+          <p class="section-copy mb-0">A few quick details about the project.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-4">
+            <article class="card info-card h-100" id="about" aria-labelledby="about-title">
+              <div class="card-body p-4">
+                <h3 class="h5 card-title" id="about-title">About</h3>
+                <p class="card-text mb-0">I'm Quan Nguyen, and I'm taking CSCE 3420. I created this site for the personal website assignment, using Bootstrap to keep the layout clean and responsive.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-4">
+            <article class="card info-card h-100" id="coursework" aria-labelledby="coursework-title">
+              <div class="card-body p-4">
+                <h3 class="h5 card-title" id="coursework-title">Coursework</h3>
+                <p class="card-text mb-0">CSCE 3420 is the course this website was created for. This assignment is a personal website, and this page is my submission.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-4">
+            <article class="card info-card h-100" id="contact" aria-labelledby="contact-title">
+              <div class="card-body p-4 d-flex flex-column">
+                <h3 class="h5 card-title" id="contact-title">Contact</h3>
+                <p class="card-text">The best place to find me online is GitHub.</p>
+                <a class="btn btn-outline-dark mt-auto align-self-start" href="https://github.com/nguyequa000" target="_blank" rel="noopener noreferrer">
+                  Visit my GitHub<span class="visually-hidden"> profile (opens in a new tab)</span>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer py-4">
+    <div class="container">
+      <div class="d-flex flex-column flex-sm-row justify-content-between align-items-sm-center gap-2 small">
+        <p class="mb-0">Quan Nguyen <span aria-hidden="true">&middot;</span> CSCE 3420</p>
+        <p class="mb-0">Built with <a href="https://getbootstrap.com/">Bootstrap 5.3.8</a>. <a href="#home">Back to top</a>.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
